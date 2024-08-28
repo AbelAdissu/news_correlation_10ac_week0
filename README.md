@@ -72,7 +72,6 @@ The primary objectives of this project are:
 - pip
 - Git
 
-### Setup
 
 
 
