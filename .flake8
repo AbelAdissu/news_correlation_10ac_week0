@@ -22,12 +22,11 @@ max-line-length = 88
 format = default
 
 # Enable or disable specific plugins or extensions
-# If you are using specific plugins like flake8-docstrings, flake8-import-order, you can configure them here
 
 # Specify paths for additional configuration files or external plugins if needed
 # application-import-names = myproject,tests
 
-# Specify specific rules to enforce (Optional, depends on your needs)
+# Specify specific rules to enforce 
 # select = E,F,W,C90
 
 # Show source code for each error
