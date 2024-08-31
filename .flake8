@@ -1,0 +1,40 @@
+[flake8]
+# Ignore specific rules (E501: Line too long, W503: Line break occurred before a binary operator)
+ignore = E501, W503
+
+# Set maximum allowed complexity (Cyclomatic Complexity) in the code
+max-complexity = 10
+
+# Exclude specific directories from checks
+exclude = 
+    .git,
+    __pycache__,
+    build,
+    dist,
+    .vscode,
+    .github,
+    docs
+
+# Set the maximum allowed line length
+max-line-length = 88
+
+# Specify the formatting style (can be adjusted based on personal/team preferences)
+format = default
+
+# Enable or disable specific plugins or extensions
+# If you are using specific plugins like flake8-docstrings, flake8-import-order, you can configure them here
+
+# Specify paths for additional configuration files or external plugins if needed
+# application-import-names = myproject,tests
+
+# Specify specific rules to enforce (Optional, depends on your needs)
+# select = E,F,W,C90
+
+# Show source code for each error
+show-source = True
+
+# Enable statistics (to get summary of error counts)
+statistics = True
+
+# Enable counting of violations per error code
+count = True
